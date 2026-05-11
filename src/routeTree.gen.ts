@@ -9,8 +9,32 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SunTzuRouteImport } from './routes/sun-tzu'
+import { Route as SourcesRouteImport } from './routes/sources'
+import { Route as MachiavelliRouteImport } from './routes/machiavelli'
+import { Route as GameRouteImport } from './routes/game'
 import { Route as IndexRouteImport } from './routes/index'
 
+const SunTzuRoute = SunTzuRouteImport.update({
+  id: '/sun-tzu',
+  path: '/sun-tzu',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SourcesRoute = SourcesRouteImport.update({
+  id: '/sources',
+  path: '/sources',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MachiavelliRoute = MachiavelliRouteImport.update({
+  id: '/machiavelli',
+  path: '/machiavelli',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GameRoute = GameRouteImport.update({
+  id: '/game',
+  path: '/game',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -19,28 +43,72 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/game': typeof GameRoute
+  '/machiavelli': typeof MachiavelliRoute
+  '/sources': typeof SourcesRoute
+  '/sun-tzu': typeof SunTzuRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/game': typeof GameRoute
+  '/machiavelli': typeof MachiavelliRoute
+  '/sources': typeof SourcesRoute
+  '/sun-tzu': typeof SunTzuRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/game': typeof GameRoute
+  '/machiavelli': typeof MachiavelliRoute
+  '/sources': typeof SourcesRoute
+  '/sun-tzu': typeof SunTzuRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/game' | '/machiavelli' | '/sources' | '/sun-tzu'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/game' | '/machiavelli' | '/sources' | '/sun-tzu'
+  id: '__root__' | '/' | '/game' | '/machiavelli' | '/sources' | '/sun-tzu'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  GameRoute: typeof GameRoute
+  MachiavelliRoute: typeof MachiavelliRoute
+  SourcesRoute: typeof SourcesRoute
+  SunTzuRoute: typeof SunTzuRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/sun-tzu': {
+      id: '/sun-tzu'
+      path: '/sun-tzu'
+      fullPath: '/sun-tzu'
+      preLoaderRoute: typeof SunTzuRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sources': {
+      id: '/sources'
+      path: '/sources'
+      fullPath: '/sources'
+      preLoaderRoute: typeof SourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/machiavelli': {
+      id: '/machiavelli'
+      path: '/machiavelli'
+      fullPath: '/machiavelli'
+      preLoaderRoute: typeof MachiavelliRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/game': {
+      id: '/game'
+      path: '/game'
+      fullPath: '/game'
+      preLoaderRoute: typeof GameRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -53,17 +121,11 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  GameRoute: GameRoute,
+  MachiavelliRoute: MachiavelliRoute,
+  SourcesRoute: SourcesRoute,
+  SunTzuRoute: SunTzuRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}
