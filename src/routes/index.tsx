@@ -100,19 +100,16 @@ function Index() {
             n="01"
             title="Strategy beats product."
             body="The best product does not always win. A patient planner with fewer resources can still beat a stronger rival who has no clear plan."
-            cite="(Tzu, Griffith trans., ch. 3)"
           />
           <Finding
             n="02"
             title="Image is power."
             body="Modern CEOs perform openness the same way old rulers performed virtue. How a leader looks to the public is a real tool for keeping control."
-            cite="(Machiavelli, Marriott trans., ch. XVIII)"
           />
           <Finding
             n="03"
             title="Win without fighting."
             body="Apple did not beat its rivals on price. It captured the market by changing what a phone could be. McNeilly calls this Sun Tzu's first rule in action."
-            cite="(McNeilly 23–46)"
           />
         </div>
       </section>
