@@ -47,7 +47,10 @@ function SunTzuPage() {
         <p>
           The most quoted line of <em>The Art of War</em> — "the supreme art of war is to subdue the enemy without
           fighting" — is also the one most aggressively applied in modern business. Mark McNeilly translates it as
-          the principle of capturing markets through innovation rather than through price wars
+          the principle of capturing markets through innovation rather than through{" "}
+          <Term definition="A competitive race in which rivals repeatedly cut prices to undercut each other, often shrinking everyone's profit until only the cheapest survives.">
+            price wars
+          </Term>
           <Cite>(McNeilly 23–46)</Cite>.
         </p>
         <p>
