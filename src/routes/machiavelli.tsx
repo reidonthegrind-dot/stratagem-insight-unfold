@@ -85,7 +85,7 @@ function MachPage() {
       <Section title="4. Acting the part.">
         <p>
           Machiavelli is blunt. A prince has to <em>look</em> kind, honest, caring, and good, even when
-          his actual choices are the opposite <Cite>(Machiavelli, Marriott trans., ch. XVIII)</Cite>.
+          his actual choices are the opposite.
           Modern CEOs do the same thing. Public reports about openness, mission statements about
           "doing the right thing," and carefully planned town halls are the same old Renaissance idea
           dressed up in HR language. The most{" "}
