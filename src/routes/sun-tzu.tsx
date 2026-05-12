@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { Term } from "@/components/Term";
 
 export const Route = createFileRoute("/sun-tzu")({
   head: () => ({
