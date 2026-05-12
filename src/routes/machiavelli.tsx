@@ -40,18 +40,18 @@ function MachPage() {
 
       <Section title="2. The lion and the fox.">
         <p>
-          A leader, Machiavelli writes, must be both a{" "}
+          Machiavelli writes that a leader has to be both a{" "}
           <Term definition="Machiavelli's image of the leader who relies on raw strength and intimidation to scare off threats — powerful but easily trapped.">
             lion
           </Term>{" "}
-          (to frighten wolves) and a{" "}
+          (to scare off wolves) and a{" "}
           <Term definition="Machiavelli's image of the leader who relies on cunning, deception, and pattern-recognition to spot traps — clever but unable to fight off real predators alone.">
             fox
           </Term>{" "}
-          (to recognize traps)
-          <Cite>(Machiavelli, Marriott trans., ch. XVIII)</Cite>. Today's executive embodies this hybrid daily:
-          the lion appears in the all-hands speech and the press cycle; the fox shows up in the closed-door
-          negotiation, the legal strategy, the timing of an{" "}
+          (to spot traps)
+          <Cite>(Machiavelli, Marriott trans., ch. XVIII)</Cite>. Today's CEO does both jobs every week.
+          The lion shows up in the big speech to staff and in the press. The fox shows up in private
+          meetings, in legal moves, and in the timing of an{" "}
           <Term definition="When one company buys another and absorbs its assets, employees, or product line.">
             acquisition
           </Term>
@@ -61,14 +61,16 @@ function MachPage() {
 
       <Section title="3. Feared or loved?">
         <p>
-          Machiavelli's most famous question is whether it is better to be feared or loved. His answer, often
-          flattened, is that <em>both</em> is ideal — but if forced to choose, fear is more reliable, because
-          love is granted by others while fear is held by you. Loyalty built on affection evaporates the moment
-          conditions change; loyalty built on consequence does not.
+          Machiavelli's most famous question is whether a leader should be feared or loved. His real
+          answer is that having both is best. But if a leader has to pick one, fear is safer. Love is
+          something other people give you, so they can also take it back. Fear is something you control
+          yourself. Loyalty based on warm feelings can vanish the moment things get hard. Loyalty based
+          on real consequences sticks around.
         </p>
         <p>
-          Modern parallel: companies that rely solely on cultural affection ("we're a family") collapse the
-          instant the market turns. Companies that combine genuine loyalty with structural consequence —{" "}
+          The modern version is easy to spot. Companies that try to run only on the "we're a family"
+          feeling tend to fall apart the second the market turns. Companies that mix real loyalty with
+          real consequences, like{" "}
           <Term definition="A schedule that gives employees ownership of company stock gradually over time, so they only fully earn it if they stay long enough.">
             equity vesting
           </Term>
@@ -76,21 +78,21 @@ function MachPage() {
           <Term definition="A clause in an employment contract that bars a worker from joining a competitor for a set period after leaving.">
             non-competes
           </Term>
-          , performance review — outlast the mood.
+          , and performance reviews, last longer than the vibe.
         </p>
       </Section>
 
-      <Section title="4. The performance of virtue.">
+      <Section title="4. Acting the part.">
         <p>
-          Machiavelli is blunt: a prince must <em>appear</em> merciful, faithful, humane, religious, and upright,
-          even when policy requires the opposite <Cite>(Machiavelli, Marriott trans., ch. XVIII)</Cite>. The
-          modern CEO has inherited this exactly. Public-facing transparency reports, mission statements about
-          "doing the right thing," carefully staged town halls — these are the Renaissance virtues in HR clothing.
-          The most{" "}
+          Machiavelli is blunt. A prince has to <em>look</em> kind, honest, caring, and good, even when
+          his actual choices are the opposite <Cite>(Machiavelli, Marriott trans., ch. XVIII)</Cite>.
+          Modern CEOs do the same thing. Public reports about openness, mission statements about
+          "doing the right thing," and carefully planned town halls are the same old Renaissance idea
+          dressed up in HR language. The most{" "}
           <Term definition="Describes behavior that is cunning, manipulative, and willing to use deception or harsh tactics to gain or keep power — named after Niccolò Machiavelli.">
             Machiavellian
           </Term>{" "}
-          move available to a 21st-century executive is to look the least Machiavellian.
+          thing a CEO can do today is look like they would never do anything Machiavellian.
         </p>
       </Section>
 
