@@ -61,10 +61,10 @@ function Index() {
           How do the techniques of Sun Tzu and Machiavelli affect today's business world?
         </h2>
         <p className="mt-6 max-w-3xl text-muted-foreground">
-          Two thinkers, separated by two thousand years and a continent, both wrote handbooks on power.
-          One wrote for generals; the other for princes. Today, their pages are dog-eared on the desks of CEOs,
-          startup founders, and product strategists. This exhibit traces the strategies that survived the journey
-          from battlefield and palace into the modern marketplace.
+          Two writers, born about two thousand years apart, both wrote books about how to hold power.
+          One wrote for generals. The other wrote for rulers. Today their books sit on the desks of CEOs,
+          founders, and product leaders. This exhibit follows the strategies that traveled from the
+          battlefield and the palace into the modern marketplace.
         </p>
       </section>
 
