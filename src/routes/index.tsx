@@ -59,13 +59,13 @@ function Index() {
       <section className="rounded-2xl border border-border bg-card/60 p-10 md:p-14">
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-accent">Research Question</p>
         <h2 className="mt-3 font-display text-3xl md:text-4xl text-balance">
-          How do the techniques of Sun Tzu and Machiavelli affect today's business world?
+          How do Sun Tzu and Machiavelli's ideas show up in the business world today?
         </h2>
         <p className="mt-6 max-w-3xl text-muted-foreground">
-          Two writers, born about two thousand years apart, both wrote books about how to hold power.
-          One wrote for generals. The other wrote for rulers. Today their books sit on the desks of CEOs,
-          founders, and product leaders. This exhibit follows the strategies that traveled from the
-          battlefield and the palace into the modern marketplace.
+          Sun Tzu wrote for army generals around 2,500 years ago. Machiavelli wrote for rulers about
+          500 years ago. Neither of them was thinking about Apple keynotes or layoffs over Zoom. But
+          their advice keeps showing up anyway, just dressed up in business words. This site walks
+          through how that happened, and where you can still see it.
         </p>
       </section>
 
