@@ -17,38 +17,40 @@ function SunTzuPage() {
       <p className="font-mono text-xs uppercase tracking-[0.3em] text-jade">The Eastern General</p>
       <h1 className="mt-3 font-display text-5xl md:text-6xl">Sun Tzu in the Boardroom</h1>
       <p className="mt-6 text-lg text-muted-foreground">
-        <em>The Art of War</em> is over 2,000 years old and somehow still reads like a guide for
-        launching a startup. Sun Tzu's main idea is pretty simple: the best general doesn't barely win
-        a hard fight. The best general wins before the fight even starts.
+        <em>The Art of War</em> is like 2,000 years old and it still kinda reads like a how-to for
+        starting a company. Sun Tzu's big point is pretty simple. The best general doesn't just
+        barely win a tough fight. The best general already won before the fight even started.
       </p>
 
       <section className="mt-12 space-y-4 text-foreground/90 leading-relaxed text-lg">
         <p>
-          Sun Tzu's whole idea is that the best general wins before the fight even starts, and he
-          gets there by really knowing the ground he's standing on. In business, that ground is the{" "}
+          Sun Tzu's whole thing is that the best general wins before any fighting happens, and he
+          gets there by knowing the ground he's standing on really well. In business that ground is
+          the{" "}
           <Term definition="In Sun Tzu, the physical ground of battle. In business, the full landscape a company operates in: customers, regulators, competitors, and cultural mood.">
             market
-          </Term>{" "}
-          itself, the customers, the rules, the rivals, even what mood people are in. A clever{" "}
+          </Term>
+          . The customers, the rules, the other companies, even what mood people are in that month.
+          A smart{" "}
           <Term definition="A person who plans long-term moves to gain advantage, weighing strengths, weaknesses, timing, and the moves of others — not just executing tactics.">
             strategist
           </Term>{" "}
-          with way less money can still beat a bigger rival that doesn't really understand the ground
-          it's tripping over. From there his most famous line is that the best win is the one where
-          you don't have to fight at all, and Mark McNeilly turns this into a business rule: instead
-          of grinding into{" "}
+          with way less money can still beat a bigger rival that doesn't really get the ground it
+          keeps tripping over. His most famous line is that the best win is the one you never had
+          to fight, and Mark McNeilly basically turns that into a buisness rule. Instead of getting
+          stuck in{" "}
           <Term definition="A competitive race in which rivals repeatedly cut prices to undercut each other, often shrinking everyone's profit until only the cheapest survives.">
             price wars
           </Term>
           , build something new enough that the fight isn't even on the same field. The iPhone is
-          McNeilly's go-to example, since Apple didn't try to undercut Nokia, they just made price
-          kind of irrelevant. Sun Tzu also warns against running straight at the wall with a{" "}
+          McNeilly's go-to one. Apple didn't try to undercut Nokia. They just made the price thing
+          kinda not matter. Sun Tzu also warns about running straight at the strongest wall, like a{" "}
           <Term definition="A direct, head-on attack against the strongest, most defended part of an opponent — usually costly and rarely decisive.">
             frontal assault
-          </Term>{" "}
-          on a strong position, and McNeilly's version is that Microsoft didn't beat IBM on hardware,
-          they grabbed the operating system, which IBM wasn't even guarding. The last big piece is
-          speed, since long wars burn through everything. Today people just call this "shipping
+          </Term>
+          , and McNeilly's version of that is Microsoft. They didn't beat IBM on hardware. They
+          grabbed the operating system, which IBM wasn't even really watching. The other big piece
+          is speed, because long wars just burn through everything. Today people call it "shipping
           fast,"{" "}
           <Term definition="The competitive edge a company gains by being the first to enter a new market — capturing customers, brand recognition, and key partnerships before rivals arrive.">
             "first-mover advantage,"
@@ -57,8 +59,8 @@ function SunTzuPage() {
           <Term definition="A startup tactic, coined by Reid Hoffman, of prioritizing breakneck growth over efficiency in order to dominate a market before competitors can react.">
             "blitzscaling."
           </Term>{" "}
-          And the psychological side is just as old, because if a rival already thinks they've lost,
-          they stop really trying.
+          The mind games part is just as old too. If your rival already thinks they lost, they
+          kinda stop trying for real, and thats half the battle right there.
         </p>
       </section>
 
