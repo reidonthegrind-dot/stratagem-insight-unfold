@@ -91,7 +91,7 @@ function Index() {
 
       {/* Findings preview */}
       <section className="mt-24">
-        <h2 className="font-display text-3xl md:text-4xl">Three things I kept noticing.</h2>
+        <h2 className="font-display text-3xl md:text-4xl">Three things I noticed.</h2>
         <p className="mt-3 max-w-2xl text-muted-foreground">
           After reading these three sources, the same idea kept popping up: business isn't really a
           contest about who has the best product. It's more about who plans better, who looks better,
